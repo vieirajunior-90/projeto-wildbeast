@@ -1,0 +1,9 @@
+body{
+    background-color: #fafbfc;
+    font-family: 'Vollkorn', serif;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}

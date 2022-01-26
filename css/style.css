@@ -1,0 +1,15 @@
+/* Reset CSS */
+@import url('./reset.css');
+
+/* Global */
+@import url('./global.css');
+
+/* Grid Geral */
+@import url('./estrutura.css');
+
+/* Grid Geral Items */
+@import url('./header.css');
+@import url('./sidenav.css');
+@import url('./content.css');
+@import url('./anuncios.css');
+@import url('./footer.css');

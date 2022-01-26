@@ -1,0 +1,22 @@
+.anuncios{
+    grid-area: anuncios;
+    background-color: #fafbfc;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;
+    align-content: start;
+    gap: 30px;
+    border-radius: 5px;
+}
+
+@media (max-width: 1200px){
+    .anuncios{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px){
+    .anuncios{
+        grid-template-columns: 1fr;
+    }
+}
